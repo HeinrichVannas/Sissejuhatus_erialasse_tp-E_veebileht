@@ -1,0 +1,65 @@
+body{
+    background-image: url("friends.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-color: #f7c3f89e;
+    background-size: 75%;
+}
+h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h2{
+    font-size: 24px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+p{
+    font-size: 18px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.matthewalgus{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3{
+    font-size: 24px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+p{
+    font-size: 18px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+.box {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: aqua;
+    border: 1px solid black;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+ }
+
