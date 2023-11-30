@@ -1,47 +1,3 @@
-/**css reset **/
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-* {
-  margin: 0;
-}
-body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-}
-img,
-picture,
-video,
-canvas,
-svg {
-  display: block;
-  max-width: 100%;
-}
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  overflow-wrap: break-word;
-}
-#root,
-#__next {
-  isolation: isolate;
-}
-
-/** end of css reset **/
-
 body{
     color: black;
     background-color: #DFDBE5;
@@ -73,7 +29,7 @@ p{
 .pildid img {
   width: 30%;
   height: auto;
-  display: flexs;
+  display: flex;
   margin: auto;
 }
 .kirjeldused{
@@ -94,7 +50,7 @@ p{
 
 .sidebar {
   height: 100vh;
-  width: 250px; 
+  width: 0px; 
   position: fixed;
   left: 0;
   top: 0;
@@ -113,6 +69,18 @@ p{
 }
 .sidebar a:hover {
   color: #f1f1f1;
+}
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
 }
 .main {
   margin-left: 160px;

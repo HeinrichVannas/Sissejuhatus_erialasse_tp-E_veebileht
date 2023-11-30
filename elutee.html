@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ee">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,31 +10,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="sidebar">
+    <button class="openbtn" onclick="openNav()">&#9776;</button>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="index.html">Pealeht</a>
         <a href="elutee.html">Matthew Perry elutee filantroopiani</a>
         <a href="naitleja.html">Matthew Perry näitlejakarjäärist</a>
-        <a href="informatsioon.html"s>Lehest</a>
+        <a href="informatsioon.html">Lehest</a>
         <a href="https://en.wikipedia.org/wiki/Matthew_Perry" target="_blank">Vikipeedia lehekülg</a>
         <button onclick="funktsioon()">Tume režiim</button>
     </div>
-    <script>s
-    function funktsioon() {
-        var element = document.body;
-        element.classList.toggle("tume_režiim");
-     }
-    </script>
+    <script src="Dark_light_mode.js"></script>
     <div class="firstdiv">
         <div class="seconddiv">
-            <img src="https://pbs.twimg.com/media/F9kotekWcAA1TlT.jpg" alt="Matthew Perry" style="flex: 1;">
-            <div style="flex: 1; width: 25%;">
-                <h1 style="font-size:40px; text-align: left; margin-left: 5%;">Matthew Perry foundation</h1>
-                <p style="font-weight: 500;">"Kui ma suren, ma loodan et ta jääks enim meelde oma pingutuste eest sõltuvustega inimeste aitamises."</p>
-                <p style="text-align: left; margin-left: 5%">
+            <img src="https://pbs.twimg.com/media/F9kotekWcAA1TlT.jpg" alt="Matthew Perry">
+            <div class="tekstdiv">
+                <h1 >Matthew Perry foundation</h1>
+                <p class="quote">"Kui ma suren, ma loodan et ta jääks enim meelde oma pingutuste eest sõltuvustega inimeste aitamises."</p>
+                <p class="tavatekst">
                 Peale Matthew Perry surma käivitati Matthew Perry foundatsioon, mis võtab vastu annetusi, et aidata inimesi kes võitlevad igasugu sõltuvustega.
-                <p style="text-align: left; margin-left: 5%;">Matthew Perry Foundatsiooni jooksutab ja sponsoreerib NPT(National Philanthropic Trust)</p>
-                
-                </p>
+                <p class="tavatekst">Matthew Perry Foundatsiooni jooksutab ja sponsoreerib NPT(National Philanthropic Trust)</p>
             </div>
         </div>
     </div>
