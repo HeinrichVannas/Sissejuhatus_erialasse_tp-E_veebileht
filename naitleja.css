@@ -24,28 +24,25 @@ p{
     text-align:center;
 }
 .pildid {
-  display: flex;
-}
-.pildid img {
-  width: 30%;
+  justify-content: center;
+  align-items: center;
   height: auto;
   display: flex;
-  margin: auto;
+  margin: 0;
 }
-.kirjeldused{
-  display: block
+.pildikonteiner{
+  margin: 20px;
+  text-align: center;
+  width: 50%;
 }
-.esimene p{
-  text-align: left;
+.pildikonteiner img {
+  border-radius: 10%;
+  width: 60%;
+  height: auto;
+}
+.kirjeldus{
+  margin-top: 10px;
   font-size: 16px;
-  font-family: fantasy;
-  margin-left: 13%;
-}
-.teine p{
-  text-align: right;
-  font-size: 16px;
-  font-family: fantasy;
-  margin-right: 15%
 }
 
 .sidebar {
