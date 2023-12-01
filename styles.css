@@ -33,6 +33,7 @@ p {
   width: 45%;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 5%;
 }
 .container {
   display: flex;
@@ -47,7 +48,8 @@ p {
   border: 1px solid black;
   padding: 20px;
   width: 200px;
-  text-align: center
+  text-align: center;
+  border-radius: 5%;
 }
 .container a:hover {
   color: #f1f1f1;
