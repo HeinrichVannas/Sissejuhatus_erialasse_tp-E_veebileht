@@ -7,6 +7,7 @@ function funktsioon() {
     } else {
         button.innerText = 'Tume režiim';
     }
+    //tume režiim  saadud https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp, abiks integreerimisel chatgpt
     //teksti muutmise nupu sees sain chatgpt käest
  }
 
